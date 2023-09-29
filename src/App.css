@@ -1,38 +1,66 @@
-.App {
-  text-align: center;
+.opacity_07 {
+  opacity: 0.7;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.strategischeEllipse {
+  right: -50px;
+  top: 30px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.ellipsemarketings {
+  right: -19px;
+  bottom: -26px;
+}
+.ellipsevisuelle {
+  left: -45px;
+  bottom: 6px;
+}
+.shdowunser::after {
+  content: "";
+  position: absolute;
+  background: rgba(135, 209, 241, 0.51);
+  filter: blur(70px);
+  width: 155.9px;
+  height: 155.9px;
+  border-radius: 100%;
+  z-index: -1;
+}
+.shadowUnserService::after {
+  left: 47%;
+  bottom: 0;
+}
+.visuelleShadow::after {
+  left: 37%;
+  bottom: -22%;
+}
+@media (max-width: 1300px) {
+  .strategischeEllipse {
+    right: -16px;
+    top: 30px;
+  }
+  .ellipsemarketings {
+    right: -16px;
+    bottom: -26px;
+  }
+  .ellipsevisuelle {
+    left: -16px;
+    bottom: 6px;
   }
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media (max-width: 576px) {
+  .strategischeEllipse {
+    right: 0;
+    top: -10px;
   }
-  to {
-    transform: rotate(360deg);
+  .ellipsemarketings {
+    right: 0;
+    bottom: -30px;
+  }
+  .ellipsevisuelle {
+    left: 0;
+    bottom: -6px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1164px !important;
   }
 }
