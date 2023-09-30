@@ -31,6 +31,12 @@
   left: 37%;
   bottom: -22%;
 }
+.unser_mw_510 {
+  max-width: 510px;
+}
+.unser_mw_532 {
+  max-width: 532px;
+}
 @media (max-width: 1300px) {
   .strategischeEllipse {
     right: -16px;

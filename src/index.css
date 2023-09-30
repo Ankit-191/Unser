@@ -1,17 +1,22 @@
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&family=Poppins:wght@400;500;600;700&display=swap");
+/* FONT FAMILY */
 .ff_Oswald {
   font-family: "Oswald", sans-serif;
 }
 .ff_poppins {
   font-family: "Poppins", sans-serif;
 }
+/* ROOT */
 :root {
   --fs-sm: 16px;
   --fs-3xl: 32px;
   --fs-4xl: 48px;
   --clr-light-pink: #de72c7;
   --clr-black-100: #141328;
+  --lh-170: 170%;
+  --lh-144: 144%;
 }
+/* FONT SIZE */
 .fs_sm {
   font-size: var(--fs-sm);
 }
@@ -21,11 +26,20 @@
 .fs_4xl {
   font-size: var(--fs-4xl);
 }
+/* COLORS */
 .clr_light_pink {
   color: var(--clr-light-pink);
 }
+/* BACKGROUND COLOR */
 .bg_black_100 {
   background-color: var(--clr-black-100);
+}
+/* LINE HEIGHT */
+.lh_170 {
+  line-height: var(--lh-170);
+}
+.lh_144 {
+  line-height: var(--lh-144);
 }
 @media (max-width: 992px) {
   :root {

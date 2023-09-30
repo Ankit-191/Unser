@@ -11,7 +11,9 @@ export const UnserServiceData = [
     imges: strategische,
     imgellipse: strategischeEllipse,
     setellipse: "strategischeEllipse",
-    reverse:"shadowUnserService shdowunser",
+    reverse: "shadowUnserService shdowunser",
+    col: "6",
+    maxWidth: "unser_mw_510",
   },
   {
     reverse: "flex-lg-row-reverse visuelleShadow shdowunser",
@@ -20,6 +22,7 @@ export const UnserServiceData = [
     imges: visuelle,
     imgellipse: ellipsevisuelle,
     setellipse: "ellipsevisuelle",
+    col: "5",
   },
   {
     heading: "Marketingstrategien, die Wirkung zeigen",
@@ -27,5 +30,7 @@ export const UnserServiceData = [
     imges: marketings,
     imgellipse: ellipsemarketings,
     setellipse: "ellipsemarketings",
+    col: "6",
+    maxWidth: "unser_mw_532",
   },
 ];
