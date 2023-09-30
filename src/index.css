@@ -10,6 +10,7 @@
   --fs-3xl: 32px;
   --fs-4xl: 48px;
   --clr-light-pink: #de72c7;
+  --clr-black-100: #141328;
 }
 .fs_sm {
   font-size: var(--fs-sm);
@@ -22,6 +23,9 @@
 }
 .clr_light_pink {
   color: var(--clr-light-pink);
+}
+.bg_black_100 {
+  background-color: var(--clr-black-100);
 }
 @media (max-width: 992px) {
   :root {

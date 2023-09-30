@@ -4,16 +4,13 @@ import { UnserServiceData } from "./common/Helper";
 const UnserService = () => {
   return (
     <>
-      <section className="bg-black py-5">
+      <section className="bg_black_100 py-5">
         <Container>
           <Row className="justify-content-center">
             <Col lg={8}>
               <h4 className="ff_Oswald fw-bold fs_4xl text-uppercase text-white text-center mb-3">
                 Unser Service-Plus:
-                <span className="clr_light_pink">
-                
-                  Mehr Leistung, mehr Wert
-                </span>
+                <span className="clr_light_pink">Mehr Leistung, mehr Wert</span>
               </h4>
               <p className="ff_poppins fs_sm fw-normal text-center text-white px-lg-5 mb-0">
                 Erweitern Sie Ihren Horizont mit unseren vielseitigen
@@ -28,8 +25,8 @@ const UnserService = () => {
                 className={`align-items-center justify-content-lg-between position-relative z-1 justify-content-center py-md-5 my-lg-1 py-4 ${data.reverse}`}
                 key={index}
               >
-                <Col md={9} lg={6}>
-                  <div className="pe-xl-5">
+                <Col md={9} lg={5} className="px-lg-0">
+                  <div className="pe-x l-4">
                     <h6 className="ff_Oswald fw-medium fs_3xl text-capitalize text-white pb-2 pb-lg-1">
                       {data.heading}
                     </h6>
